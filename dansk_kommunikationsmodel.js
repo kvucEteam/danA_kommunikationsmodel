@@ -1,11 +1,21 @@
-var situationTxt ="situation";
-var sprogTxt ="sprog";
-var afsenderTxt ="afsender";
-var samfundTxt ="samfund";
-var medieKanalTxt ="medie / kanal";
-var reaktionTxt ="reaktion";
-var adressatTxt ="adressat";
-var modtagerTxt ="modtager";
+// var situationTxt ="situation";
+// var sprogTxt ="sprog";
+// var afsenderTxt ="afsender";
+// var samfundTxt ="samfund";
+// var medieKanalTxt ="medie / kanal";
+// var reaktionTxt ="reaktion";
+// var adressatTxt ="adressat";
+// var modtagerTxt ="modtager";
+var obj = {
+	'situation':'der står situation',
+	'sprog':'sprog',
+	'afsender':'afsender',
+	'samfund':'samfund',
+	'medieKanal':'medieKanal',
+	'reaktion':'reaktion',
+	'adressat':'adressat',
+	'modtager':'modtager'
+}
 
 $(window).resize(function() {
 	var viewPort = $('#img-holder').width();
@@ -26,7 +36,7 @@ $(window).load(function () {
 $('.btn-default').click(function() {
 	var elementId = $(this).attr('id');
 	console.log(elementId);
-	var msg = elementId + "Txt";
+	var msg = obj[elementId];
 	MsgBox('body', msg);
 
 });
