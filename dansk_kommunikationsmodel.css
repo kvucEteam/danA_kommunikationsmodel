@@ -1,0 +1,62 @@
+/******************************************************************************************************
+		Forneden er der nogle justeringer der får boilerplaten til at ligne MAMs design.
+******************************************************************************************************/
+body {
+	font-size: 100%;
+}
+img {
+	width: 100%;
+}
+
+.btn-default, .btn-info, .btn-lg {
+	position: absolute;
+	z-index: 3;
+	cursor: pointer;
+	width: 12%;
+	height:10%;
+	text-align: center;
+	font-size: 1.7em;
+	padding:none;
+}
+.btn-lg {
+	padding-left: none;
+	padding-right: none;
+}
+#sprog {
+	left:21%;
+	top:22%;
+	padding-left: none;
+	padding-right: none;
+}
+#afsender {
+	left:15%;
+	top:43%;
+}
+#samfund {
+	left:9%;
+	top:75%;
+}
+#situation {
+	left:32%;
+	top:64%;
+}
+#medieKanal {
+	left:43%;
+	top:35%;
+	width:14%;
+}
+#reaktion {
+	left:65%;
+	top:20%;
+}
+#adressat {
+	left:60%;
+	top:36%;
+}
+#modtager {
+	left:73%;
+	top:36%;
+}
+.MsgBox_bgr {
+	background-color: none;
+}
