@@ -4,7 +4,6 @@ body {
 img {
 	width: 100%;
 }
-
 .btn-default, .btn-info, .btn-lg {
 	position: absolute;
 	display: block;
@@ -19,7 +18,7 @@ img {
 }
 .MsgBox_bgr {
 	/*background-color:rgba(0, 0, 0, 0.3);*/
-	overflow: scroll;
+	overflow-y: scroll;
 }
 #UserMsgBox {
 	font-size: 14px;
@@ -35,11 +34,11 @@ img {
 }
 #samfund {
 	left:9%;
-	top:79%;
+	top:80%;
 }
 #situation {
 	left:32%;
-	top:68%;
+	top:69%;
 }
 #medieKanal {
 	left:43%;
