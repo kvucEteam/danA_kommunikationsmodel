@@ -18,13 +18,13 @@ img {
 }
 .MsgBox_bgr {
 	/*background-color:rgba(0, 0, 0, 0.3);*/
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 }
 #UserMsgBox {
 	font-size: 14px;
-	overflow: scroll;
-}
-#sprog {
+/*	overflow-y: scroll;
+*/}
+#formaal {
 	left:21%;
 	top:26%;
 }
@@ -32,18 +32,19 @@ img {
 	left:14%;
 	top:47%;
 }
-#samfund {
-	left:9%;
-	top:80%;
-}
+
 #situation {
 	left:32%;
 	top:69%;
 }
-#medieKanal {
+#meddelelse {
+	left:43%;
+	top:25%;
+}
+#medie {
 	left:43%;
 	top:40%;
-	width:14%;
+	/*width:14%;*/
 }
 #reaktion {
 	left:64%;
