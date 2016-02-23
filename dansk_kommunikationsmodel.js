@@ -80,3 +80,8 @@ $(window).resize(function() {
 	console.log('btnPadding: '+btnPadding);
 	$('.btn-default').css('padding-top', btnPadding);
 });
+
+
+$(document).ready(function() {
+	$('.instruktionInset').html(instruction('Klik på knapperne og læs om kommunikationsmodellen.'));
+});
