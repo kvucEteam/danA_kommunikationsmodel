@@ -83,5 +83,7 @@ $(window).resize(function() {
 
 
 $(document).ready(function() {
-	$('.instruktionInset').html(instruction('Klik på knapperne og læs om kommunikationsmodellen.'));
+
+
+	$('.instr_container').html(instruction('Klik på knapperne og læs om kommunikationsmodellen. '));
 });
